@@ -11,7 +11,7 @@ header('Content-Type: application/json');
 if(strcasecmp($_SERVER['REQUEST_METHOD'], 'POST') != 0){
 $response = array(
   'Result' => "false",
-  'Message' => "Request method must be POST!",
+  'Message' => "Request method must be POST!", 
   'Method' => $_SERVER['REQUEST_METHOD']
 );
 echo json_encode($response);

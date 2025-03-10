@@ -4,7 +4,7 @@ Class Database{
 
 	/* Database connection start */
 	/*
-	var $servername = "sql17.cpt1.host-h.net";
+	var $servername = "sql17.cpt1.host-h.net"; 
 	var $username = "fastar_2";
 	var $password = "gzf2FNK8";
 	var $dbname = "fastar_wp";

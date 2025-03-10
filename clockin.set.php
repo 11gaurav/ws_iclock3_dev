@@ -14,7 +14,7 @@ $response = array(
   'Message' => "Request method must be POST!", 
   'Method' => $_SERVER['REQUEST_METHOD']
 );
-echo json_encode($response);
+echo json_encode($response); 
 //  throw new Exception('Request method must be POST!');
 }
  

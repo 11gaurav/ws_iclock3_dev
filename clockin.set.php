@@ -38,7 +38,7 @@ $obj = json_decode($content);
 include_once 'Logger.php';
 require_once("validate.php"); 
 //$input = Validate::isValid();
-// $list = Validate::isContact();
+// $list = Validate::isContact(); 
 // $list = array();
 
 Logger::info($content);

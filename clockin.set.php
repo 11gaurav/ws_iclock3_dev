@@ -35,7 +35,7 @@ $content = file_get_contents("php://input");
 //Attempt to decode the incoming RAW post data from JSON.
 $obj = json_decode($content);
 
-include_once 'Logger.php';
+include_once 'Logger.php'; 
 require_once("validate.php"); 
 //$input = Validate::isValid();
 // $list = Validate::isContact(); 
